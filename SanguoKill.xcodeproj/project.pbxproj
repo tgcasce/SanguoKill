@@ -505,8 +505,8 @@
 		425C3BA51BA9860900103C29 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				425C3D571BA9866E00103C29 /* Image */,
 				425C3F0B1BA98B6C00103C29 /* GameScene.sks */,
+				425C3D571BA9866E00103C29 /* Image */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
