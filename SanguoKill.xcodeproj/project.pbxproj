@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4258EDE71BA990F600B5A69A /* TGCGameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258EDE61BA990F600B5A69A /* TGCGameCard.swift */; };
 		425C3E311BA9866E00103C29 /* card0_0-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D591BA9866E00103C29 /* card0_0-hd.png */; };
 		425C3E321BA9866E00103C29 /* card0_1-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D5A1BA9866E00103C29 /* card0_1-hd.png */; };
 		425C3E331BA9866E00103C29 /* card0_2-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D5B1BA9866E00103C29 /* card0_2-hd.png */; };
@@ -242,6 +243,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4258EDE61BA990F600B5A69A /* TGCGameCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGCGameCard.swift; sourceTree = "<group>"; };
 		425C3D591BA9866E00103C29 /* card0_0-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card0_0-hd.png"; sourceTree = "<group>"; };
 		425C3D5A1BA9866E00103C29 /* card0_1-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card0_1-hd.png"; sourceTree = "<group>"; };
 		425C3D5B1BA9866E00103C29 /* card0_2-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card0_2-hd.png"; sourceTree = "<group>"; };
@@ -491,6 +493,7 @@
 		425C3BA31BA9860900103C29 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4258EDE61BA990F600B5A69A /* TGCGameCard.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1149,6 +1152,7 @@
 			files = (
 				425C3F0A1BA986E400103C29 /* GameScene.swift in Sources */,
 				42E2F8851BA95F0E00BF9FCB /* GameViewController.swift in Sources */,
+				4258EDE71BA990F600B5A69A /* TGCGameCard.swift in Sources */,
 				42E2F87F1BA95F0E00BF9FCB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
