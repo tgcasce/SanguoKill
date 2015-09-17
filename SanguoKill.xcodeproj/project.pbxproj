@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4258EDE71BA990F600B5A69A /* TGCGameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258EDE61BA990F600B5A69A /* TGCGameCard.swift */; };
+		4258EDEA1BA9B73C00B5A69A /* imagesUI0-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4258EDE91BA9B73C00B5A69A /* imagesUI0-hd.plist */; };
 		425C3E311BA9866E00103C29 /* card0_0-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D591BA9866E00103C29 /* card0_0-hd.png */; };
 		425C3E321BA9866E00103C29 /* card0_1-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D5A1BA9866E00103C29 /* card0_1-hd.png */; };
 		425C3E331BA9866E00103C29 /* card0_2-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D5B1BA9866E00103C29 /* card0_2-hd.png */; };
@@ -70,7 +71,6 @@
 		425C3E6C1BA9866E00103C29 /* duishouzhuangbeilanwei-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D951BA9866E00103C29 /* duishouzhuangbeilanwei-hd.png */; };
 		425C3E6D1BA9866E00103C29 /* fanjianhuase-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D961BA9866E00103C29 /* fanjianhuase-hd.png */; };
 		425C3E6E1BA9866E00103C29 /* guojiabiaoji-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D971BA9866E00103C29 /* guojiabiaoji-hd.png */; };
-		425C3E6F1BA9866E00103C29 /* imagesUI0-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D981BA9866E00103C29 /* imagesUI0-hd.plist */; };
 		425C3E701BA9866E00103C29 /* jiubiaoji-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D991BA9866E00103C29 /* jiubiaoji-hd.png */; };
 		425C3E711BA9866E00103C29 /* kapaibeimian-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D9A1BA9866E00103C29 /* kapaibeimian-hd.png */; };
 		425C3E721BA9866E00103C29 /* kapaishuzi-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D9B1BA9866E00103C29 /* kapaishuzi-hd.png */; };
@@ -244,6 +244,7 @@
 
 /* Begin PBXFileReference section */
 		4258EDE61BA990F600B5A69A /* TGCGameCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGCGameCard.swift; sourceTree = "<group>"; };
+		4258EDE91BA9B73C00B5A69A /* imagesUI0-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "imagesUI0-hd.plist"; sourceTree = "<group>"; };
 		425C3D591BA9866E00103C29 /* card0_0-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card0_0-hd.png"; sourceTree = "<group>"; };
 		425C3D5A1BA9866E00103C29 /* card0_1-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card0_1-hd.png"; sourceTree = "<group>"; };
 		425C3D5B1BA9866E00103C29 /* card0_2-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card0_2-hd.png"; sourceTree = "<group>"; };
@@ -306,7 +307,6 @@
 		425C3D951BA9866E00103C29 /* duishouzhuangbeilanwei-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "duishouzhuangbeilanwei-hd.png"; sourceTree = "<group>"; };
 		425C3D961BA9866E00103C29 /* fanjianhuase-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanjianhuase-hd.png"; sourceTree = "<group>"; };
 		425C3D971BA9866E00103C29 /* guojiabiaoji-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guojiabiaoji-hd.png"; sourceTree = "<group>"; };
-		425C3D981BA9866E00103C29 /* imagesUI0-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "imagesUI0-hd.plist"; sourceTree = "<group>"; };
 		425C3D991BA9866E00103C29 /* jiubiaoji-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jiubiaoji-hd.png"; sourceTree = "<group>"; };
 		425C3D9A1BA9866E00103C29 /* kapaibeimian-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kapaibeimian-hd.png"; sourceTree = "<group>"; };
 		425C3D9B1BA9866E00103C29 /* kapaishuzi-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kapaishuzi-hd.png"; sourceTree = "<group>"; };
@@ -490,6 +490,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4258EDE81BA9B21300B5A69A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		425C3BA31BA9860900103C29 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -509,6 +516,7 @@
 			isa = PBXGroup;
 			children = (
 				425C3F0B1BA98B6C00103C29 /* GameScene.sks */,
+				4258EDE91BA9B73C00B5A69A /* imagesUI0-hd.plist */,
 				425C3D571BA9866E00103C29 /* Image */,
 			);
 			path = Resources;
@@ -606,7 +614,6 @@
 				425C3D951BA9866E00103C29 /* duishouzhuangbeilanwei-hd.png */,
 				425C3D961BA9866E00103C29 /* fanjianhuase-hd.png */,
 				425C3D971BA9866E00103C29 /* guojiabiaoji-hd.png */,
-				425C3D981BA9866E00103C29 /* imagesUI0-hd.plist */,
 				425C3D991BA9866E00103C29 /* jiubiaoji-hd.png */,
 				425C3D9A1BA9866E00103C29 /* kapaibeimian-hd.png */,
 				425C3D9B1BA9866E00103C29 /* kapaishuzi-hd.png */,
@@ -801,6 +808,7 @@
 				42E2F87E1BA95F0E00BF9FCB /* AppDelegate.swift */,
 				42E2F8841BA95F0E00BF9FCB /* GameViewController.swift */,
 				425C3BA51BA9860900103C29 /* Resources */,
+				4258EDE81BA9B21300B5A69A /* Utils */,
 				425C3BA31BA9860900103C29 /* Model */,
 				425C3BA41BA9860900103C29 /* Protocol */,
 				425C3BA61BA9860900103C29 /* View */,
@@ -1008,6 +1016,7 @@
 				42E2F88D1BA95F0E00BF9FCB /* LaunchScreen.xib in Resources */,
 				425C3E881BA9866E00103C29 /* zijishenfen-hd.png in Resources */,
 				425C3E7F1BA9866E00103C29 /* xuege-hd.png in Resources */,
+				4258EDEA1BA9B73C00B5A69A /* imagesUI0-hd.plist in Resources */,
 				425C3EA41BA9866E00103C29 /* touxiang_0_05_m-hd.png in Resources */,
 				425C3E491BA9866E00103C29 /* card3_2-hd.png in Resources */,
 				425C3E741BA9866E00103C29 /* lianhuan-hd.png in Resources */,
@@ -1114,7 +1123,6 @@
 				425C3E8E1BA9866E00103C29 /* touxiang_0_00_sss-hd.png in Resources */,
 				425C3EB31BA9866E00103C29 /* touxiang_0_08_m-hd.png in Resources */,
 				425C3E5D1BA9866E00103C29 /* card5_5-hd.png in Resources */,
-				425C3E6F1BA9866E00103C29 /* imagesUI0-hd.plist in Resources */,
 				425C3E961BA9866E00103C29 /* touxiang_0_02_s-hd.png in Resources */,
 				425C3EFA1BA9866E00103C29 /* touxiang_0_22_s-hd.png in Resources */,
 				425C3E4F1BA9866E00103C29 /* card5_1-hd.png in Resources */,
