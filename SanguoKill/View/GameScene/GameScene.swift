@@ -22,10 +22,10 @@ class GameScene: SKScene {
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         /* Called when a touch begins */
         
-//        for touch in (touches as! Set<UITouch>) {
+//        for touch in touches {
 //            let location = touch.locationInNode(self)
 //            
-//            let sprite = SKSpriteNode(imageNamed:"Spaceship")
+//            let sprite = SKSpriteNode(imageNamed:"card0_2-hd")
 //            
 //            sprite.xScale = 0.5
 //            sprite.yScale = 0.5

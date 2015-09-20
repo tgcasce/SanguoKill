@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4232F8C51BAC5E2700F4EC9F /* GameCardInformation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4232F8C41BAC5E2700F4EC9F /* GameCardInformation.plist */; settings = {ASSET_TAGS = (); }; };
 		4258EDE71BA990F600B5A69A /* TGCGameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258EDE61BA990F600B5A69A /* TGCGameCard.swift */; };
 		4258EDEA1BA9B73C00B5A69A /* imagesUI0-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4258EDE91BA9B73C00B5A69A /* imagesUI0-hd.plist */; };
 		425C3E311BA9866E00103C29 /* card0_0-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D591BA9866E00103C29 /* card0_0-hd.png */; };
@@ -243,7 +244,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4258EDE61BA990F600B5A69A /* TGCGameCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGCGameCard.swift; sourceTree = "<group>"; };
+		4232F8C41BAC5E2700F4EC9F /* GameCardInformation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameCardInformation.plist; sourceTree = "<group>"; };
+		4258EDE61BA990F600B5A69A /* TGCGameCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TGCGameCard.swift; path = ../TGCGameCard.swift; sourceTree = "<group>"; };
 		4258EDE91BA9B73C00B5A69A /* imagesUI0-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "imagesUI0-hd.plist"; sourceTree = "<group>"; };
 		425C3D591BA9866E00103C29 /* card0_0-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card0_0-hd.png"; sourceTree = "<group>"; };
 		425C3D5A1BA9866E00103C29 /* card0_1-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card0_1-hd.png"; sourceTree = "<group>"; };
@@ -490,6 +492,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4232F8C61BAC618000F4EC9F /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				4258EDE61BA990F600B5A69A /* TGCGameCard.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		4232F8C71BAC618000F4EC9F /* Character */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
 		4258EDE81BA9B21300B5A69A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -500,7 +517,8 @@
 		425C3BA31BA9860900103C29 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4258EDE61BA990F600B5A69A /* TGCGameCard.swift */,
+				4232F8C61BAC618000F4EC9F /* Card */,
+				4232F8C71BAC618000F4EC9F /* Character */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -515,9 +533,10 @@
 		425C3BA51BA9860900103C29 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				425C3D571BA9866E00103C29 /* Image */,
 				425C3F0B1BA98B6C00103C29 /* GameScene.sks */,
 				4258EDE91BA9B73C00B5A69A /* imagesUI0-hd.plist */,
-				425C3D571BA9866E00103C29 /* Image */,
+				4232F8C41BAC5E2700F4EC9F /* GameCardInformation.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -894,6 +913,7 @@
 				TargetAttributes = {
 					42E2F8781BA95F0E00BF9FCB = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = Z9QDL5YRNS;
 					};
 					42E2F8911BA95F0E00BF9FCB = {
 						CreatedOnToolsVersion = 6.4;
@@ -1122,6 +1142,7 @@
 				425C3EE81BA9866E00103C29 /* touxiang_0_18_sss-hd.png in Resources */,
 				425C3EBB1BA9866E00103C29 /* touxiang_0_09_sss-hd.png in Resources */,
 				425C3ECC1BA9866E00103C29 /* touxiang_0_13_m-hd.png in Resources */,
+				4232F8C51BAC5E2700F4EC9F /* GameCardInformation.plist in Resources */,
 				425C3E8E1BA9866E00103C29 /* touxiang_0_00_sss-hd.png in Resources */,
 				425C3EB31BA9866E00103C29 /* touxiang_0_08_m-hd.png in Resources */,
 				425C3E5D1BA9866E00103C29 /* card5_5-hd.png in Resources */,
@@ -1295,11 +1316,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SanguoKill/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tgcasce.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -1307,11 +1331,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SanguoKill/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tgcasce.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
