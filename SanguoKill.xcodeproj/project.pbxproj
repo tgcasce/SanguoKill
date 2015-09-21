@@ -224,7 +224,6 @@
 		425C3F051BA9866E00103C29 /* touxiang_0_24_ss-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3E2F1BA9866E00103C29 /* touxiang_0_24_ss-hd.png */; };
 		425C3F061BA9866E00103C29 /* touxiang_0_24_sss-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3E301BA9866E00103C29 /* touxiang_0_24_sss-hd.png */; };
 		425C3F0A1BA986E400103C29 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425C3F091BA986E400103C29 /* GameScene.swift */; };
-		425C3F0C1BA98B6C00103C29 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 425C3F0B1BA98B6C00103C29 /* GameScene.sks */; };
 		42E2F87F1BA95F0E00BF9FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E2F87E1BA95F0E00BF9FCB /* AppDelegate.swift */; };
 		42E2F8851BA95F0E00BF9FCB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E2F8841BA95F0E00BF9FCB /* GameViewController.swift */; };
 		42E2F8881BA95F0E00BF9FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E2F8861BA95F0E00BF9FCB /* Main.storyboard */; };
@@ -461,7 +460,6 @@
 		425C3E2F1BA9866E00103C29 /* touxiang_0_24_ss-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touxiang_0_24_ss-hd.png"; sourceTree = "<group>"; };
 		425C3E301BA9866E00103C29 /* touxiang_0_24_sss-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touxiang_0_24_sss-hd.png"; sourceTree = "<group>"; };
 		425C3F091BA986E400103C29 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		425C3F0B1BA98B6C00103C29 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		42E2F8791BA95F0E00BF9FCB /* SanguoKill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanguoKill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E2F87D1BA95F0E00BF9FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42E2F87E1BA95F0E00BF9FCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -534,7 +532,6 @@
 			isa = PBXGroup;
 			children = (
 				425C3D571BA9866E00103C29 /* Image */,
-				425C3F0B1BA98B6C00103C29 /* GameScene.sks */,
 				4258EDE91BA9B73C00B5A69A /* imagesUI0-hd.plist */,
 				4232F8C41BAC5E2700F4EC9F /* GameCardInformation.plist */,
 			);
@@ -1062,7 +1059,6 @@
 				425C3E7E1BA9866E00103C29 /* xiwenbiaoji-hd.png in Resources */,
 				425C3EB41BA9866E00103C29 /* touxiang_0_08_s-hd.png in Resources */,
 				425C3EB81BA9866E00103C29 /* touxiang_0_09_m-hd.png in Resources */,
-				425C3F0C1BA98B6C00103C29 /* GameScene.sks in Resources */,
 				425C3E521BA9866E00103C29 /* card5_12-hd.png in Resources */,
 				425C3E4E1BA9866E00103C29 /* card5_0-hd.png in Resources */,
 				425C3EA01BA9866E00103C29 /* touxiang_0_04_s-hd.png in Resources */,

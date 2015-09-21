@@ -21,9 +21,14 @@ enum TGCGameCardRank: Int {
 class TGCGameCard: NSObject {
     let suit: TGCGameCardSuit
     let rank: TGCGameCardRank
+    var desc: String?
     
     init(suit: TGCGameCardSuit, rank: TGCGameCardRank) {
         self.suit = suit
         self.rank = rank
     }
+}
+
+class TGCBasicGameCard: TGCGameCard {
+    
 }

@@ -16,7 +16,17 @@ class GameScene: SKScene {
         myLabel.fontSize = 65;
         myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
         
-        self.addChild(myLabel)
+        let backgroundNode = SKSpriteNode(color: UIColor.purpleColor(), size:self.size)
+        backgroundNode.position = CGPointMake(self.size.width / 2, self.size.height / 2)
+        
+//        let bottomConstraint = SKConstraint.positionY(SKRange(constantValue: 0))
+//        let bottomNode = self.childNodeWithName("SKSpriteNode_0") as! SKSpriteNode
+//        bottomNode.size = CGSizeMake(self.size.width, bottomNode.size.height)
+
+//        bottomNode.constraints = [bottomConstraint]
+        
+        self.insertChild(backgroundNode, atIndex: 0)
+        self.insertChild(myLabel, atIndex: 1)
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
