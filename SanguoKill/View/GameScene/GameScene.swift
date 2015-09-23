@@ -9,29 +9,32 @@
 import SpriteKit
 
 class GameScene: SKScene {
+    let backgroundNode = SKSpriteNode(texture: SKTexture(imageNamed: ""), size: CGSizeMake(screenWidth, screenHeight))
+    
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!";
-        myLabel.fontSize = 65;
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
+        backgroundNode.position = CGPoint(x: CGRectGetMidX(self.frame), y: CGRectGetMidY(self.frame))
+        self.addChild(backgroundNode)
         
-        let backgroundNode = SKSpriteNode(color: UIColor.purpleColor(), size:self.size)
-        backgroundNode.position = CGPointMake(self.size.width / 2, self.size.height / 2)
+        let myControlScene = SKScene.unarchiveFromFile("MyControlPlace") as! SKScene
+        let myControlNode = myControlScene.childNodeWithName("MyControlPlace") as! SKSpriteNode
+        myControlNode.removeFromParent()
+        
+        let xScale = (screenWidth - 20) / myControlNode.size.width
+        let yScale = (screenHeight / 3) / myControlNode.size.height
+        myControlNode.xScale = xScale
+        myControlNode.yScale = yScale
+        self.addChild(myControlNode)
         
 //        let bottomConstraint = SKConstraint.positionY(SKRange(constantValue: 0))
 //        let bottomNode = self.childNodeWithName("SKSpriteNode_0") as! SKSpriteNode
 //        bottomNode.size = CGSizeMake(self.size.width, bottomNode.size.height)
-
 //        bottomNode.constraints = [bottomConstraint]
-        
-        self.insertChild(backgroundNode, atIndex: 0)
-        self.insertChild(myLabel, atIndex: 1)
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         /* Called when a touch begins */
-        
+
 //        for touch in touches {
 //            let location = touch.locationInNode(self)
 //            
@@ -49,6 +52,10 @@ class GameScene: SKScene {
 //        }
     }
    
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        
+    }
+    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
     }
