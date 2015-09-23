@@ -64,6 +64,11 @@
 		424105471BB2C12300BA23AA /* zijihuase-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 424105111BB2C12300BA23AA /* zijihuase-hd.png */; settings = {ASSET_TAGS = (); }; };
 		424105481BB2C12300BA23AA /* zijishenfen-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 424105121BB2C12300BA23AA /* zijishenfen-hd.png */; settings = {ASSET_TAGS = (); }; };
 		424105491BB2C12300BA23AA /* zijitouxiangbeijing-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 424105131BB2C12300BA23AA /* zijitouxiangbeijing-hd.png */; settings = {ASSET_TAGS = (); }; };
+		4241054B1BB2C9CA00BA23AA /* guanxing-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 4241054A1BB2C9CA00BA23AA /* guanxing-hd.png */; settings = {ASSET_TAGS = (); }; };
+		424105501BB2CA6700BA23AA /* kaiguan-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 4241054C1BB2CA6700BA23AA /* kaiguan-hd.png */; settings = {ASSET_TAGS = (); }; };
+		424105511BB2CA6700BA23AA /* pandingchengbai-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 4241054D1BB2CA6700BA23AA /* pandingchengbai-hd.png */; settings = {ASSET_TAGS = (); }; };
+		424105521BB2CA6700BA23AA /* pindianmianban-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 4241054E1BB2CA6700BA23AA /* pindianmianban-hd.png */; settings = {ASSET_TAGS = (); }; };
+		424105531BB2CA6700BA23AA /* pingdianbiaoji-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 4241054F1BB2CA6700BA23AA /* pingdianbiaoji-hd.png */; settings = {ASSET_TAGS = (); }; };
 		4258EDE71BA990F600B5A69A /* TGCGameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258EDE61BA990F600B5A69A /* TGCGameCard.swift */; };
 		4258EDEA1BA9B73C00B5A69A /* imagesUI0-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4258EDE91BA9B73C00B5A69A /* imagesUI0-hd.plist */; };
 		425C3E311BA9866E00103C29 /* card0_0-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D591BA9866E00103C29 /* card0_0-hd.png */; };
@@ -325,6 +330,11 @@
 		424105111BB2C12300BA23AA /* zijihuase-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zijihuase-hd.png"; sourceTree = "<group>"; };
 		424105121BB2C12300BA23AA /* zijishenfen-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zijishenfen-hd.png"; sourceTree = "<group>"; };
 		424105131BB2C12300BA23AA /* zijitouxiangbeijing-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zijitouxiangbeijing-hd.png"; sourceTree = "<group>"; };
+		4241054A1BB2C9CA00BA23AA /* guanxing-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guanxing-hd.png"; sourceTree = "<group>"; };
+		4241054C1BB2CA6700BA23AA /* kaiguan-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kaiguan-hd.png"; sourceTree = "<group>"; };
+		4241054D1BB2CA6700BA23AA /* pandingchengbai-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pandingchengbai-hd.png"; sourceTree = "<group>"; };
+		4241054E1BB2CA6700BA23AA /* pindianmianban-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pindianmianban-hd.png"; sourceTree = "<group>"; };
+		4241054F1BB2CA6700BA23AA /* pingdianbiaoji-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pingdianbiaoji-hd.png"; sourceTree = "<group>"; };
 		4258EDE61BA990F600B5A69A /* TGCGameCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TGCGameCard.swift; path = ../TGCGameCard.swift; sourceTree = "<group>"; };
 		4258EDE91BA9B73C00B5A69A /* imagesUI0-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "imagesUI0-hd.plist"; sourceTree = "<group>"; };
 		425C3D591BA9866E00103C29 /* card0_0-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card0_0-hd.png"; sourceTree = "<group>"; };
@@ -677,6 +687,11 @@
 		425C3D921BA9866E00103C29 /* OtherImage */ = {
 			isa = PBXGroup;
 			children = (
+				4241054C1BB2CA6700BA23AA /* kaiguan-hd.png */,
+				4241054D1BB2CA6700BA23AA /* pandingchengbai-hd.png */,
+				4241054E1BB2CA6700BA23AA /* pindianmianban-hd.png */,
+				4241054F1BB2CA6700BA23AA /* pingdianbiaoji-hd.png */,
+				4241054A1BB2C9CA00BA23AA /* guanxing-hd.png */,
 				424104DE1BB2C12300BA23AA /* bingliangcunduan-hd.png */,
 				424104DF1BB2C12300BA23AA /* duishoushenfen-hd.png */,
 				424104E01BB2C12300BA23AA /* duishouzhuangbeilanwei-hd.png */,
@@ -1141,6 +1156,7 @@
 				424105481BB2C12300BA23AA /* zijishenfen-hd.png in Resources */,
 				425C3EA21BA9866E00103C29 /* touxiang_0_04_sss-hd.png in Resources */,
 				425C3E901BA9866E00103C29 /* touxiang_0_01_m-hd.png in Resources */,
+				4241054B1BB2C9CA00BA23AA /* guanxing-hd.png in Resources */,
 				424105271BB2C12300BA23AA /* kapaihuase-hd.png in Resources */,
 				425C3E601BA9866E00103C29 /* card5_8-hd.png in Resources */,
 				424105281BB2C12300BA23AA /* kapaishuzi-hd.png in Resources */,
@@ -1162,6 +1178,7 @@
 				425C3EA01BA9866E00103C29 /* touxiang_0_04_s-hd.png in Resources */,
 				425C3E8D1BA9866E00103C29 /* touxiang_0_00_ss-hd.png in Resources */,
 				424105421BB2C12300BA23AA /* zhuangbeibeijing_4-hd.png in Resources */,
+				424105501BB2CA6700BA23AA /* kaiguan-hd.png in Resources */,
 				425C3E3C1BA9866E00103C29 /* card1_3-hd.png in Resources */,
 				425C3ED61BA9866E00103C29 /* touxiang_0_15_m-hd.png in Resources */,
 				425C3E311BA9866E00103C29 /* card0_0-hd.png in Resources */,
@@ -1170,6 +1187,7 @@
 				425C3EE71BA9866E00103C29 /* touxiang_0_18_ss-hd.png in Resources */,
 				425C3EDA1BA9866E00103C29 /* touxiang_0_16_l-hd.png in Resources */,
 				425C3EFF1BA9866E00103C29 /* touxiang_0_23_s-hd.png in Resources */,
+				424105531BB2CA6700BA23AA /* pingdianbiaoji-hd.png in Resources */,
 				425C3EBD1BA9866E00103C29 /* touxiang_0_10_m-hd.png in Resources */,
 				425C3F021BA9866E00103C29 /* touxiang_0_24_l-hd.png in Resources */,
 				425C3F041BA9866E00103C29 /* touxiang_0_24_s-hd.png in Resources */,
@@ -1223,6 +1241,7 @@
 				425C3E481BA9866E00103C29 /* card3_1-hd.png in Resources */,
 				425C3EBA1BA9866E00103C29 /* touxiang_0_09_ss-hd.png in Resources */,
 				425C3E341BA9866E00103C29 /* card0_3-hd.png in Resources */,
+				424105521BB2CA6700BA23AA /* pindianmianban-hd.png in Resources */,
 				425C3EF91BA9866E00103C29 /* touxiang_0_22_m-hd.png in Resources */,
 				425C3E591BA9866E00103C29 /* card5_19-hd.png in Resources */,
 				425C3E421BA9866E00103C29 /* card1_9-hd.png in Resources */,
@@ -1233,6 +1252,7 @@
 				425C3EE81BA9866E00103C29 /* touxiang_0_18_sss-hd.png in Resources */,
 				425C3EBB1BA9866E00103C29 /* touxiang_0_09_sss-hd.png in Resources */,
 				425C3ECC1BA9866E00103C29 /* touxiang_0_13_m-hd.png in Resources */,
+				424105511BB2CA6700BA23AA /* pandingchengbai-hd.png in Resources */,
 				4232F8C51BAC5E2700F4EC9F /* GameCardInformation.plist in Resources */,
 				4241052A1BB2C12300BA23AA /* lianhuan-hd.png in Resources */,
 				425C3E8E1BA9866E00103C29 /* touxiang_0_00_sss-hd.png in Resources */,
