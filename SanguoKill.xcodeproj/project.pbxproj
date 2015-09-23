@@ -71,8 +71,9 @@
 		424105531BB2CA6700BA23AA /* pingdianbiaoji-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 4241054F1BB2CA6700BA23AA /* pingdianbiaoji-hd.png */; settings = {ASSET_TAGS = (); }; };
 		424105561BB2CBFA00BA23AA /* tuoguan-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 424105541BB2CBFA00BA23AA /* tuoguan-hd.png */; settings = {ASSET_TAGS = (); }; };
 		424105571BB2CBFA00BA23AA /* xizuomianban-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 424105551BB2CBFA00BA23AA /* xizuomianban-hd.png */; settings = {ASSET_TAGS = (); }; };
-		4241055C1BB2CE2900BA23AA /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 424105591BB2CE2900BA23AA /* launchImage.png */; settings = {ASSET_TAGS = (); }; };
+		4241055C1BB2CE2900BA23AA /* launchImageForPlus.png in Resources */ = {isa = PBXBuildFile; fileRef = 424105591BB2CE2900BA23AA /* launchImageForPlus.png */; settings = {ASSET_TAGS = (); }; };
 		4241055E1BB2CE2900BA23AA /* launchImageForiPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4241055B1BB2CE2900BA23AA /* launchImageForiPad.png */; settings = {ASSET_TAGS = (); }; };
+		424105821BB2DC8300BA23AA /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 424105811BB2DC8300BA23AA /* launchImage.png */; settings = {ASSET_TAGS = (); }; };
 		4258EDE71BA990F600B5A69A /* TGCGameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258EDE61BA990F600B5A69A /* TGCGameCard.swift */; };
 		4258EDEA1BA9B73C00B5A69A /* imagesUI0-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4258EDE91BA9B73C00B5A69A /* imagesUI0-hd.plist */; };
 		425C3E311BA9866E00103C29 /* card0_0-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C3D591BA9866E00103C29 /* card0_0-hd.png */; };
@@ -341,8 +342,9 @@
 		4241054F1BB2CA6700BA23AA /* pingdianbiaoji-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pingdianbiaoji-hd.png"; sourceTree = "<group>"; };
 		424105541BB2CBFA00BA23AA /* tuoguan-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tuoguan-hd.png"; sourceTree = "<group>"; };
 		424105551BB2CBFA00BA23AA /* xizuomianban-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xizuomianban-hd.png"; sourceTree = "<group>"; };
-		424105591BB2CE2900BA23AA /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
+		424105591BB2CE2900BA23AA /* launchImageForPlus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageForPlus.png; sourceTree = "<group>"; };
 		4241055B1BB2CE2900BA23AA /* launchImageForiPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageForiPad.png; sourceTree = "<group>"; };
+		424105811BB2DC8300BA23AA /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
 		4258EDE61BA990F600B5A69A /* TGCGameCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TGCGameCard.swift; path = ../TGCGameCard.swift; sourceTree = "<group>"; };
 		4258EDE91BA9B73C00B5A69A /* imagesUI0-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "imagesUI0-hd.plist"; sourceTree = "<group>"; };
 		425C3D591BA9866E00103C29 /* card0_0-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card0_0-hd.png"; sourceTree = "<group>"; };
@@ -576,7 +578,8 @@
 		424105581BB2CE2900BA23AA /* LaunchImage */ = {
 			isa = PBXGroup;
 			children = (
-				424105591BB2CE2900BA23AA /* launchImage.png */,
+				424105811BB2DC8300BA23AA /* launchImage.png */,
+				424105591BB2CE2900BA23AA /* launchImageForPlus.png */,
 				4241055B1BB2CE2900BA23AA /* launchImageForiPad.png */,
 			);
 			path = LaunchImage;
@@ -1252,7 +1255,7 @@
 				425C3E3D1BA9866E00103C29 /* card1_4-hd.png in Resources */,
 				425C3F061BA9866E00103C29 /* touxiang_0_24_sss-hd.png in Resources */,
 				425C3EDB1BA9866E00103C29 /* touxiang_0_16_m-hd.png in Resources */,
-				4241055C1BB2CE2900BA23AA /* launchImage.png in Resources */,
+				4241055C1BB2CE2900BA23AA /* launchImageForPlus.png in Resources */,
 				425C3E581BA9866E00103C29 /* card5_18-hd.png in Resources */,
 				424105401BB2C12300BA23AA /* zhuangbeibeijing_2-hd.png in Resources */,
 				425C3E641BA9866E00103C29 /* card6_2-hd.png in Resources */,
@@ -1280,6 +1283,7 @@
 				4241052A1BB2C12300BA23AA /* lianhuan-hd.png in Resources */,
 				425C3E8E1BA9866E00103C29 /* touxiang_0_00_sss-hd.png in Resources */,
 				425C3EB31BA9866E00103C29 /* touxiang_0_08_m-hd.png in Resources */,
+				424105821BB2DC8300BA23AA /* launchImage.png in Resources */,
 				425C3E5D1BA9866E00103C29 /* card5_5-hd.png in Resources */,
 				425C3E961BA9866E00103C29 /* touxiang_0_02_s-hd.png in Resources */,
 				425C3EFA1BA9866E00103C29 /* touxiang_0_22_s-hd.png in Resources */,

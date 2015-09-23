@@ -11,10 +11,13 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="CEh-Pk-kOY">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImageForiPad.png" translatesAutoresizingMaskIntoConstraints="NO" id="gtU-Yx-48p">
                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yby-RE-Lzo">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImageForPlus.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yby-RE-Lzo">
                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                 </imageView>
             </subviews>
@@ -22,9 +25,13 @@
             <constraints>
                 <constraint firstItem="Yby-RE-Lzo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2Od-BE-cVS"/>
                 <constraint firstAttribute="trailing" secondItem="Yby-RE-Lzo" secondAttribute="trailing" id="BVp-Cg-nJx"/>
+                <constraint firstAttribute="bottom" secondItem="CEh-Pk-kOY" secondAttribute="bottom" id="CiL-1p-kpg"/>
                 <constraint firstItem="gtU-Yx-48p" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="DqM-rK-n3R"/>
                 <constraint firstItem="Yby-RE-Lzo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="IkM-4W-Jxw"/>
+                <constraint firstItem="CEh-Pk-kOY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KXy-ZH-MGk"/>
                 <constraint firstItem="gtU-Yx-48p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PLe-Hw-mjI"/>
+                <constraint firstAttribute="trailing" secondItem="CEh-Pk-kOY" secondAttribute="trailing" id="SK0-nT-rXX"/>
+                <constraint firstItem="CEh-Pk-kOY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="V7I-DY-Uqs"/>
                 <constraint firstAttribute="bottom" secondItem="Yby-RE-Lzo" secondAttribute="bottom" id="dNs-70-cNb"/>
                 <constraint firstAttribute="bottom" secondItem="gtU-Yx-48p" secondAttribute="bottom" id="jWW-Ru-eir"/>
                 <constraint firstAttribute="trailing" secondItem="gtU-Yx-48p" secondAttribute="trailing" id="lbK-R8-pHr"/>
@@ -33,6 +40,7 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <variation key="default">
                 <mask key="subviews">
+                    <exclude reference="CEh-Pk-kOY"/>
                     <exclude reference="gtU-Yx-48p"/>
                     <exclude reference="Yby-RE-Lzo"/>
                 </mask>
@@ -45,6 +53,21 @@
                     <exclude reference="PLe-Hw-mjI"/>
                     <exclude reference="jWW-Ru-eir"/>
                     <exclude reference="lbK-R8-pHr"/>
+                    <exclude reference="CiL-1p-kpg"/>
+                    <exclude reference="KXy-ZH-MGk"/>
+                    <exclude reference="SK0-nT-rXX"/>
+                    <exclude reference="V7I-DY-Uqs"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact">
+                <mask key="subviews">
+                    <include reference="CEh-Pk-kOY"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="CiL-1p-kpg"/>
+                    <include reference="KXy-ZH-MGk"/>
+                    <include reference="SK0-nT-rXX"/>
+                    <include reference="V7I-DY-Uqs"/>
                 </mask>
             </variation>
             <variation key="widthClass=regular">
@@ -73,7 +96,8 @@
         </view>
     </objects>
     <resources>
-        <image name="launchImage.png" width="1136" height="640"/>
+        <image name="launchImage.png" width="960" height="640"/>
+        <image name="launchImageForPlus.png" width="1136" height="640"/>
         <image name="launchImageForiPad.png" width="1024" height="768"/>
     </resources>
 </document>
