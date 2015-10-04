@@ -15,3 +15,9 @@ let screenHeight = CGRectGetHeight(screenBounds)
 
 
 var backgroundImageName: String? = NSUserDefaults.standardUserDefaults().objectForKey("com.tgcasce.backgroundImageName") as? String
+
+
+
+
+var xGameScale: CGFloat!
+var yGameScale: CGFloat!

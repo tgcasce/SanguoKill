@@ -10,26 +10,24 @@ import SpriteKit
 
 class GameScene: SKScene {
     let backgroundNode = SKSpriteNode(texture: SKTexture(imageNamed: ""), size: CGSizeMake(screenWidth, screenHeight))
+    let myControlNode = TGCMyControlPlaceNode()
     
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
         backgroundNode.position = CGPoint(x: CGRectGetMidX(self.frame), y: CGRectGetMidY(self.frame))
         self.addChild(backgroundNode)
         
-        let myControlScene = SKScene.unarchiveFromFile("MyControlPlace") as! SKScene
-        let myControlNode = myControlScene.childNodeWithName("MyControlPlace") as! SKSpriteNode
-        myControlNode.removeFromParent()
-        
-        let xScale = (screenWidth - 20) / myControlNode.size.width
-        let yScale = (screenHeight / 3) / myControlNode.size.height
-        myControlNode.xScale = xScale
-        myControlNode.yScale = yScale
         self.addChild(myControlNode)
+        print(myControlNode)
+        NSLog("%@", myControlNode.children)
+
+        
+//        cropNode.maskNode?.runAction(SKAction.repeatActionForever(SKAction.sequence([SKAction.moveByX(0, y: 80, duration: 2), SKAction.moveByX(0, y: -80, duration: 2), SKAction.moveByX(-300, y: 0, duration: 2), SKAction.moveByX(300, y: 0, duration: 2)])))
         
 //        let bottomConstraint = SKConstraint.positionY(SKRange(constantValue: 0))
 //        let bottomNode = self.childNodeWithName("SKSpriteNode_0") as! SKSpriteNode
 //        bottomNode.size = CGSizeMake(self.size.width, bottomNode.size.height)
-//        bottomNode.constraints = [bottomConstraint]
+        //        bottomNode.constraints = [bottomConstraint]
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
@@ -53,7 +51,14 @@ class GameScene: SKScene {
     }
    
     override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        
+        for touch in touches {
+            let location = touch.locationInNode(myControlNode)
+            let previousLocation = touch.previousLocationInNode(myControlNode)
+            
+            let deltaX = (location.x - previousLocation.x) / xGameScale
+            let deltaY = (location.y - previousLocation.y) / yGameScale
+            myControlNode.moveTo(position: CGPoint(x: myControlNode.movePosition().x + deltaX, y: myControlNode.movePosition().y + deltaY))
+        }
     }
     
     override func update(currentTime: CFTimeInterval) {
