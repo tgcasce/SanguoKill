@@ -19,7 +19,6 @@ class GameScene: SKScene {
         
         self.addChild(myControlNode)
         print(myControlNode)
-        NSLog("%@", myControlNode.children)
 
         
 //        cropNode.maskNode?.runAction(SKAction.repeatActionForever(SKAction.sequence([SKAction.moveByX(0, y: 80, duration: 2), SKAction.moveByX(0, y: -80, duration: 2), SKAction.moveByX(-300, y: 0, duration: 2), SKAction.moveByX(300, y: 0, duration: 2)])))

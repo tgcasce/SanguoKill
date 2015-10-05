@@ -10,6 +10,7 @@ import SpriteKit
 
 class TGCMyControlPlaceNode: SKNode {
     var myCardControlPlaceNode: TGCMyCardAndSkillControlPlaceNode!
+    var myCardAndBloodNumberNode: TGCCardNumAndBloodNumNode!
     
     override init() {
         super.init()
@@ -23,9 +24,13 @@ class TGCMyControlPlaceNode: SKNode {
         myControlNode.xScale = xGameScale
         myControlNode.yScale = yGameScale
         
-        myCardControlPlaceNode = TGCMyCardAndSkillControlPlaceNode.init(position: CGPoint(x: 258.714, y: 0), sizeScale: TGCScale(xScale: xGameScale, yScale: yGameScale))
-        
+        myCardControlPlaceNode = TGCMyCardAndSkillControlPlaceNode(position: CGPoint(x: 258.714, y: 0), sizeScale: TGCScale(xScale: xGameScale, yScale: yGameScale))
+        myCardAndBloodNumberNode = TGCCardNumAndBloodNumNode(cardNumber: 44, bloodNumber: 6)
+        myCardAndBloodNumberNode.position = CGPoint(x: 3, y: 160)
+//        myCardAndBloodNumberNode.cardNumber = 444
+        print(myCardAndBloodNumberNode)
         myControlNode.addChild(myCardControlPlaceNode)
+        myControlNode.addChild(myCardAndBloodNumberNode)
         self.addChild(myControlNode)
     }
 
