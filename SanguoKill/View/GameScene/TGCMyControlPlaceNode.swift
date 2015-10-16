@@ -25,10 +25,11 @@ class TGCMyControlPlaceNode: SKNode {
         myControlNode.yScale = yGameScale
         
         myCardControlPlaceNode = TGCMyCardAndSkillControlPlaceNode(position: CGPoint(x: 258.714, y: 0), sizeScale: TGCScale(xScale: xGameScale, yScale: yGameScale))
-        myCardAndBloodNumberNode = TGCCardNumAndBloodNumNode(cardNumber: 44, bloodNumber: 6)
+        myCardAndBloodNumberNode = TGCCardNumAndBloodNumNode(cardNumber: 44, maxBloodNumber: 5)
         myCardAndBloodNumberNode.position = CGPoint(x: 3, y: 160)
-//        myCardAndBloodNumberNode.cardNumber = 444
-        print(myCardAndBloodNumberNode)
+        myCardAndBloodNumberNode.bloodNode.currentBlood = 4
+        myCardAndBloodNumberNode.cardNumber = 100
+
         myControlNode.addChild(myCardControlPlaceNode)
         myControlNode.addChild(myCardAndBloodNumberNode)
         self.addChild(myControlNode)
